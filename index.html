@@ -12,13 +12,13 @@
         
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="imgs/logo.png" alt="#" /></a>
+                <a class="navbar-brand" href="index.html"><img src="imgs/logos/logo.png" alt="#" style="width: 50%" ></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-links" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse text-capitalize" id="nav-links">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto" >
                         <li class="nav-item active">
                             <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -50,7 +50,7 @@
         
         <header id="home">
             <div class="content">
-                <div class="d-flex align-items-center flex-column justify-content-center">
+                <div class="d-flex align-items-center flex-column justify-content-center header-color">
                     <h1>Welcome To <br>Mac Pharmacy</h1>
                     <p>MAC Pharmacy is the clinical health science that links medical science with chemistry and it is charged with the discovery, production, disposal, safe and effective use, and control of medications and drugs.</p>
                     <!-- <a href="#">
@@ -61,15 +61,33 @@
             </div>
           <div id="slideToNext" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="imgs/index.png" class="d-block w-100">
+             <div class="carousel-item active">
+                <img src="imgs/index9.jpg" class="d-block w-100">
+              </div>
+
+              <div class="carousel-item">
+                <img src="imgs/index10.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item ">
+                <img src="imgs/index1.jpg" class="d-block w-100">
               </div>
               <div class="carousel-item">
-                <img src="imgs/index2.webp" class="d-block w-100">
+                <img src="imgs/index2.jpg" class="d-block w-100">
               </div>
-              <!-- <div class="carousel-item">
-                <img src="imgs/index.png" class="d-block w-100">
-              </div> -->
+              <div class="carousel-item">
+                <img src="imgs/index3.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/index4.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/index5.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/index6.jpg" class="d-block w-100">
+              </div>
+
+
             </div>
             <a class="carousel-control-prev" href="#slideToNext" role="button" data-slide="prev">
               <i class="fas fa-chevron-left"></i>
@@ -171,14 +189,14 @@
             <div class="container"><h2 class="text-capitalize"><span>get</span> in touch</h2></div>
             <div class="contact-child">
                 <div class="container">
-                    <div class="row">
+                    <div class="row pt-5">
                         <div class="col-lg-6 col-md-12">
-                            <div class="contact-form my-5">
+                            <div class="contact-form ">
                                 <form action="https://formspree.io/f/xqkgjvzq" method="POST" >
-                                    <input type="text" placeholder="Your name" name="name">
-                                    <input type="text" placeholder="Your Phone number" name="phone">
-                                    <input type="email" placeholder="Your email" name="_replyto">
-                                    <textarea placeholder="Message" name="message"></textarea>
+                                    <input type="text" placeholder="Your name" name="name" required>
+                                    <input type="text" placeholder="Your Phone number" name="phone" required>
+                                    <input type="email" placeholder="Your email" name="_replyto" required>
+                                    <textarea placeholder="Message" name="message" required></textarea>
                                     <input type="submit" value="send" class="text-uppercase">
                                 </form>
 
@@ -190,7 +208,8 @@
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=MAC%20PHARMACY%20visakhapatnam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://yt2.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+                            <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=MAC%20PHARMACY%20visakhapatnam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://yt2.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div> -->
+                            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=MAC%20PHARMACY%20visakhapatnam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://yt2.org"></a><br><style>.mapouter{position:relative;text-align:right;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;}</style></div></div>
                         </div>
                     </div>
                 </div>
@@ -206,6 +225,15 @@
                         <div class="col-lg-2 col-md-3 col-4"><img style="width:75%; border-radius: 50%;" src="imgs/profile.png"></div>
                         <div class="col-lg-6 col-8">
                             <h4 class="text-ippercase">Ravindra Joseph</h4>
+
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+
+
                             <p>good service and best discount prices.. the best shop of kancharapalem area</p>
                         </div>
                     </div>
@@ -213,7 +241,49 @@
                         <div class="col-lg-2 col-md-3 col-4"><img style="width:75%; border-radius: 50%;" src="imgs/profile.png"></div>
                         <div class="col-lg-6 col-8">
                             <h4 class="text-ippercase">K S RAJU</h4>
+
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+
+
                             <p>Nice</p>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-4"><img style="width:75%; border-radius: 50%;" src="imgs/profile.png"></div>
+                        <div class="col-lg-6 col-8">
+                            <h4 class="text-ippercase">Venkatesh J</h4>
+
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-4"><img style="width:75%; border-radius: 50%;" src="imgs/profile.png"></div>
+                        <div class="col-lg-6 col-8">
+                            <h4 class="text-ippercase">Mac H</h4>
+
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+
+
                         </div>
                     </div>
                 </div>
@@ -224,7 +294,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-12">
-                        <a href="index.html" class="logo"><img src="imgs/logo.png" alt="#" /></a>
+                        <a href="index.html" class="logo"><img src="imgs/logos/logo.png" alt="#" style="width: 60%;" /></a>
                     </div>
                     <div class="col-lg-9 col-12">
                         <div class="row">
@@ -276,7 +346,7 @@
                         <div class="item">
                             <h4 class="text-capitalize">about Mac Pharmacy</h4>
                             <form action="https://formspree.io/f/maylkgwe"  method="POST">
-                                <input type="text" placeholder="Enter your email" name="email">
+                                <input type="text" placeholder="Enter your email" name="email" required>
                                 <input type="submit" value="Subscribe">
                             </form>
                         </div>

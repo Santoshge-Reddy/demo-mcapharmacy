@@ -29,7 +29,7 @@ a {
 }
 
 h2 span {
-    text-decoration: underline #ffe25b;
+    text-decoration: underline #56A651;
 }
 
 h2 {
@@ -48,16 +48,16 @@ h2 {
     z-index: 1000
 }
 
-.navbar a {
+/*.navbar a {
     color: white !important;
-}
+}*/
 
 .navbar .navbar-toggler {
     background-color: white;
 }
 
 .navbar .log {
-    color: #ffe25b !important;
+    color: #56A651 !important;
 }
 
 .navbar ul li.search {
@@ -119,14 +119,14 @@ header .content > div:first-of-type h1 {
 }
 
 header .content {
-    background-color: rgba(0,0,0, .5);
+    /*background-color: rgba(0,0,0, .5);*/
     width: 100%;
     height: 100%;
 }
 
 header .content a {
     width: 170px;
-    border: 2px solid #ffe25b;
+    border: 2px solid #56A651;
     margin-top: 30px;
     text-align: right;
     color: white;
@@ -135,7 +135,7 @@ header .content a {
 header .content a i {
     padding: 5px 15px;
     color: black;
-    background-color: #ffe25b
+    background-color: #56A651
 }
 
 header .content a span {
@@ -161,9 +161,11 @@ header .carousel-control-next i, header .carousel-control-prev i {
 }
 
 header .carousel-control-next {
-    background-color: #ffe25b;
+    background-color:  #56A651; 
     top: 77%;
 }
+
+/*ffe25b*/
 
 header .carousel-control-prev {
     position: absolute;
@@ -200,7 +202,7 @@ header .carousel-control-prev {
 
 .about  a {
     width: 170px;
-    border: 2px solid #ffe25b;
+    border: 2px solid #56A651;
     margin-top: 30px;
     text-align: left;
     color: black;
@@ -210,7 +212,7 @@ header .carousel-control-prev {
 .about a i {
     padding: 5px 15px;
     color: black;
-    background-color: #ffe25b
+    background-color: #56A651
 }
 
 .about a span {
@@ -246,7 +248,7 @@ header .carousel-control-prev {
 }
 
 .services .link {
-    border: 3px solid #ffe25b;
+    border: 3px solid #56A651;
     width: 160px;
     float: right;
 }
@@ -256,12 +258,12 @@ header .carousel-control-prev {
 }
 
 .services .row a:hover {
-    color: #ffe25b;
+    color: #56A651;
 }
 
 .services .container > a {
     width: 170px;
-    border: 2px solid #ffe25b;
+    border: 2px solid #56A651;
     margin-top: 30px;
     text-align: left;
     color: black;
@@ -271,7 +273,7 @@ header .carousel-control-prev {
 .services .container > a i {
     padding: 5px 15px;
     color: black;
-    background-color: #ffe25b
+    background-color: #56A651
 }
 
 .services .container > a span {
@@ -348,7 +350,7 @@ header .carousel-control-prev {
 }
 
 .contact-child {
-    background-color: #ffe25b;
+    background-color: #56A651;
     /*background-image: url('../imgs/contact.jpg');*/
     background-size: 50% 100%;
     background-repeat: no-repeat;
@@ -457,7 +459,7 @@ footer ul {
 footer ul li {
     margin: 10px 0;
     list-style-type: square;
-    color: #ffe25b;
+    color: #56A651;
 }
 
 footer ul li a {
@@ -465,7 +467,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #ffe25b;
+    color: #56A651;
 }
 
 footer ul.social-media {
@@ -488,7 +490,7 @@ footer form input[type="text"] {
 
 footer form input[type="submit"] {
     border: none;
-    background-color: #ffe25b;
+    background-color: #56A651;
     height: 30px;
     width: 120px;
 }
@@ -522,7 +524,7 @@ footer .copyright p {
         color: black !important;
     }
     .navbar ul li a:hover {
-        color: #ffe25b !important;
+        color: #56A651 !important;
     }
     .navbar ul form {
         position: static;
@@ -617,4 +619,26 @@ footer .copyright p {
     .about .about-child {
         width: 90%;
     }
+}
+
+
+a.nav-link {
+    color: #56A651!important;
+}
+
+
+.header-color{
+    color: #103C4D!important;
+    text-shadow: 0 0 1px #103C4D; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 1px #103C4D;
+  -webkit-text-shadow: 0 0 1px #103C4D;
+}
+
+
+.header-color p{
+    font-size: 1.1rem;
+}
+
+.checked{
+    color: orange;
 }
